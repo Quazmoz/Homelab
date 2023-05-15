@@ -21,15 +21,5 @@ pipeline {
 '''
             }
         }
-
-    post {
-        unsuccessful {
-            script {
-                throw err
-                currentBuild.result = 'FAILED'
-                return
-            }
-        }
     }
-}
 }
