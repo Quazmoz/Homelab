@@ -10,3 +10,6 @@ if ($LogMessage -like "*`'*") {
 }elseif($LogMessage -like "*`"*"){
     $LogMessage = $LogMessage.Replace("`"", "")
 }
+
+
+#Send file via email
