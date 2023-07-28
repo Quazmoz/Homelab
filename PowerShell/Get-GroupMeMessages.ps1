@@ -1,15 +1,18 @@
 <#
 .SYNOPSIS
-A PowerShell command used to get the last build status for a particular Jenkins Job.
+A PowerShell command used to get the messages from a GroupMe Data Export
 
 .DESCRIPTION
-A PowerShell command used to get the last build status for a particular Jenkins Job.
+A PowerShell command used to get the messages from a GroupMe Data Export
 
 .PARAMETER FilePath
 full filepath for example C:\Users\qfavo\Downloads\00001\69163202\message.json
 
 .EXAMPLE
 Get-GroupMeMessages -FilePath $FilePath
+
+.LINK
+https://quazmoz.blogspot.com/2023/07/groupme-data-export.html
 
 .NOTES
 This will dump a txt file to the drive that you run this from
